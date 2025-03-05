@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatBox</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="darkModeToggle"></button>
+    <h2>Web Chat Mã Hóa Tin Nhắn</h2>
+    <div id="chat"></div>
+    <input type="text" id="username" placeholder="Nhập Tên" />
+    <input type="text" id="message" placeholder="" />
+    <button onclick="sendMessage()">Gửi</button>
+    <button id="showEncryptedButton">Hiển thị tin nhắn mã hóa</button>
+    <div id="encryptedMessages"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
